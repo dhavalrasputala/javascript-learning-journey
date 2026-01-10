@@ -30,3 +30,11 @@ new Promise((_, reject) => reject(new Error("continew the chain")))
     return "chain continews";
 })
 .then(value => console.log("Handler 2", value));
+//callback example
+function add(a, b, reply) {
+  reply(a + b);
+}
+
+add(2, 3, result => {
+  console.log(result);
+});
