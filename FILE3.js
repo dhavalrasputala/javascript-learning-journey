@@ -17,6 +17,7 @@ const names = users.map(user => user.name);
 number=[100,200,300,400,500]
 
 console.log(number.filter(value => value>100))
+//[200,300,400,500]
 
 const names1=['bob','jerry','tom']
 
@@ -30,3 +31,4 @@ var users1 = [
 
 const activeUsers = users1.filter(user1=>user1.active)
 console.log(activeUsers)
+//[ { name: 'Ali', active: true } ]
